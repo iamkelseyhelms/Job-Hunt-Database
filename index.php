@@ -11,7 +11,7 @@
 <!------------------------------ Connect to Database ------------------------------>
 <?php
 ini_set('display_errors', 'On');
-$mysqli = new mysqli("oniddb.cws.oregonstate.edu", "helmsk-db", "XKBMwuWgFy7m9FSJ", "helmsk-db");
+$mysqli = new mysqli("oniddb.cws.oregonstate.edu", "helmsk-db", "**********", "helmsk-db");
 
 if ($mysqli->connect_errno) {
     print "Connection error " . $mysqli->connect_errno . " " . $mysqli->connect_error;
